@@ -9,8 +9,7 @@ string get_group_id(string &s){
         for(int i=0;i<freq.size();i++){
             res=res+to_string(freq[i])+"^";
         }
-        return res;
-        
+        return res; 
     }
     vector<vector<string> > Anagrams(vector<string>& string_list) {
         unordered_map<string,int> ump;

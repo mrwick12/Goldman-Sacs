@@ -14,5 +14,4 @@ string encode(string src)
   }
 }  temp+=to_string(count);
   return temp;
-  
 }    
